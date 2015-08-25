@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.calculator2.view.CalculatorPadLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pad_hoistory_button"
+    style="@style/PadLayoutStyle.Numeric"
+    android:columnCount="2"
+    android:rowCount="1"
+    >
+
+    <Button
+        android:id="@+id/up"
+        style="@style/PadButtonStyle.Numeric"
+        android:onClick="onButtonClick"
+        android:focusable="true"
+        android:text="@string/scroll_up" />
+
+    <Button
+        android:id="@+id/clr_history"
+        style="@style/PadButtonStyle.Numeric"
+        android:contentDescription="@string/desc_clr"
+        android:onClick="onButtonClick"
+        android:focusable="true"
+        android:text="@string/clr_c" />
+
+</com.android.calculator2.view.CalculatorPadLayout>
